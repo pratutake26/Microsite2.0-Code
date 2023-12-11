@@ -51,7 +51,7 @@ public class SchoolDetailsPageTest extends MicrositeScreenBase {
         Thread.sleep(15000);
         driver.findElement(By.xpath("//div[@id='list_of_udise_codes']")).click();
         Thread.sleep(20000);
-        driver.findElement(By.xpath("#this_is_myschool")).click():
+        driver.findElement(By.xpath("#this_is_myschool")).click();
     }
 
     @AfterMethod
